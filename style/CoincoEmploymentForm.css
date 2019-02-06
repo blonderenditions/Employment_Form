@@ -1,0 +1,291 @@
+#CoincoEmploymentForm .sfm_textbox
+{
+    padding:1px;
+}
+#CoincoEmploymentForm .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#CoincoEmploymentForm .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#CoincoEmploymentForm img
+{
+    border:0;
+}
+#CoincoEmploymentForm .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#CoincoEmploymentForm input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#CoincoEmploymentForm .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#CoincoEmploymentForm .sfm_cr_box a
+{
+    color:#888888;
+}
+#CoincoEmploymentForm .sfm_slider
+{
+    margin:0;
+    display:inline-bock;
+}
+#CoincoEmploymentForm .slider_label
+{
+    padding-top:5px;
+    padding-left:3px;
+    overflow:visible;
+    display:inline-block;
+}
+
+@media only screen and (max-width : 480px)
+{
+#CoincoEmploymentForm .sfm_form_label,.element_label
+{
+    padding:12px 0 3px 0;
+    clear:both;
+}
+#CoincoEmploymentForm .form_outer_div
+{
+    padding:10px;
+}
+#CoincoEmploymentForm .sfm_element_container
+{
+    margin-bottom:10px;
+    content:'';
+    display:inline-block;
+    clear:both;
+    width:100%;
+}
+#CoincoEmploymentForm .sfm_date_container:after
+{
+    content:'';
+    display:block;
+    clear:both;
+}
+#CoincoEmploymentForm fieldset
+{
+    display:none;
+}
+#CoincoEmploymentForm .sfm_textbox_common
+{
+    width:100%;
+}
+#CoincoEmploymentForm .sfm_datepicker_img_container
+{
+    padding-top:2px;
+    padding-left:2px;
+}
+#CoincoEmploymentForm .sfm_datepicker_input
+{
+    width:80%;
+}
+
+}
+#CoincoEmploymentForm .form_outer_div
+{
+    border:none;
+    background-color:#ffffff;
+}
+#CoincoEmploymentForm .sfm_form_label
+{
+    background-color:transparent;
+}
+#CoincoEmploymentForm .element_label
+{
+    background-color:transparent;
+}
+body#sfm_CoincoEmploymentForm_body
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:14px;
+    color:#666666;
+    margin:0px;
+}
+#CoincoEmploymentForm .form_outer_div
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#666666;
+}
+#CoincoEmploymentForm .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#CoincoEmploymentForm .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+    background:none repeat scroll 0 0 #333333;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#CoincoEmploymentForm .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+}
+#CoincoEmploymentForm .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#CoincoEmploymentForm .progress_box
+{
+    background-color:#ffd700;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#CoincoEmploymentForm .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#CoincoEmploymentForm .page_number
+{
+    background-color:transparent;
+}
+#CoincoEmploymentForm input[type='text'],input[type='password'],input[type='email'],input[type='tel'],input[type='number']
+{
+    background-color:#ffffff;
+    border:1px solid #ffd700;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    font-family:Arial;
+    font-size:16px;
+    color:#666666;
+    height:23px;
+    line-height:23px;
+}
+#CoincoEmploymentForm textarea
+{
+    background-color:#ffffff;
+    border:1px solid #ffd700;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    font-family:Arial;
+    font-size:16px;
+    color:#666666;
+}
+
+
+@media only screen and (min-width : 480px)
+{
+#CoincoEmploymentForm #CoincoEmploymentForm_outer_div_p1
+{
+    width:845px;
+    height:450px;
+}
+#CoincoEmploymentForm #Name_container
+{
+    position:absolute;
+    left:15px;
+    top:15px;
+}
+#CoincoEmploymentForm #Name
+{
+    width:394px;
+    height:19px;
+}
+#CoincoEmploymentForm #Title_container
+{
+    position:absolute;
+    left:430px;
+    top:15px;
+}
+#CoincoEmploymentForm #Title
+{
+    width:394px;
+    height:19px;
+}
+#CoincoEmploymentForm #Email_container
+{
+    position:absolute;
+    left:15px;
+    top:55px;
+}
+#CoincoEmploymentForm #Email
+{
+    width:394px;
+    height:19px;
+}
+#CoincoEmploymentForm #Phone_container
+{
+    position:absolute;
+    left:430px;
+    top:55px;
+}
+#CoincoEmploymentForm #Phone
+{
+    width:394px;
+    height:19px;
+}
+#CoincoEmploymentForm #Comments_Opportunities_container
+{
+    position:absolute;
+    left:15px;
+    top:95px;
+}
+#CoincoEmploymentForm #Comments_Opportunities
+{
+    width:809px;
+    height:94px;
+}
+#CoincoEmploymentForm #Captcha_container
+{
+    position:absolute;
+    left:430px;
+    top:210px;
+    width:245px;
+    height:130px;
+}
+#CoincoEmploymentForm #upload_container
+{
+    position:absolute;
+    left:170px;
+    top:210px;
+    width:245px;
+    height:170px;
+}
+#CoincoEmploymentForm #Submit_container
+{
+    position:absolute;
+    left:380px;
+    top:400px;
+    width:100px;
+    height:50px;
+}
+
+}

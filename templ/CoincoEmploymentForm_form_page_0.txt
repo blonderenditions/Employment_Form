@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: CoincoEmploymentForm</title>
+      <meta name='generator' content='Simfatic Forms 5.0.6.450'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/jquery.ui.widget.js' type='text/javascript'></script>
+      <script src='scripts/jquery.iframe-transport.js' type='text/javascript'></script>
+      <script src='scripts/jquery.fileupload.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sfm.upload.js' type='text/javascript'></script>
+      <script src='scripts/jquery.qtip.js' type='text/javascript'></script>
+      <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/sfm-fileupload.css'>
+      <link rel='stylesheet' type='text/css' href='style/jquery.qtip.css'>
+      <link rel='stylesheet' type='text/css' href='style/CoincoEmploymentForm.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_CoincoEmploymentForm_body'>
+      <form id='CoincoEmploymentForm' class='sfm_form' novalidate='novalidate' enctype='multipart/form-data' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='CoincoEmploymentForm_errorloc' class='error_strings' style='width:845px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='CoincoEmploymentForm_outer_div_p1' class='form_outer_div'>
+            <div style='position:relative' id='CoincoEmploymentForm_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'>
+               <input type='text' name='t5d42cb601c691fbead8f' id='t5d42cb601c691fbead8f' style='width:5px;height:5px;display:none'>
+               <div id='Name_container' class='sfm_element_container' style='z-index:1'>
+                  <input type='text' name='Name' id='Name' class='sfm_textbox_common sfm_textbox' size='20' value='%Name%' style='float:left;z-index:1'>
+               </div>
+               <div id='Title_container' class='sfm_element_container' style='z-index:2'>
+                  <input type='text' name='Title' id='Title' class='sfm_textbox_common sfm_textbox' size='20' value='%Title%' style='float:left;z-index:2'>
+               </div>
+               <div id='Email_container' class='sfm_element_container' style='z-index:3'>
+                  <input type='email' name='Email' id='Email' class='sfm_textbox_common sfm_textbox' size='20' placeholder='Email' value='%Email%' style='float:left;z-index:3'>
+               </div>
+               <div id='Phone_container' class='sfm_element_container' style='z-index:4'>
+                  <input type='tel' name='Phone' id='Phone' class='sfm_textbox_common sfm_textbox' size='20' placeholder='Phone Number' value='%Phone%' style='float:left;z-index:4'>
+               </div>
+               <div id='Comments_Opportunities_container' class='sfm_element_container' style='z-index:5'><textarea name='Comments_Opportunities' id='Comments_Opportunities' class='sfm_textbox_common sfm_textarea' style='height:100px float:left;z-index:5'>%Comments_Opportunities%</textarea></div>
+               <div id='Captcha_container' class='sfm_element_container' style='z-index:7'>
+                  <div >
+                     <img class='sfm_captcha' id='img_Captcha' src='%sfm_self_script%&amp;sfm_get_captcha=1&amp;sfm_captcha_k=%_sfm_form_page_session_id_%' width='150' height='60' alt='Captcha'>
+                  </div>
+                  <div class='element_label'>Please enter the code above in the box below.</div>
+                  <div >
+                     <input type='text' name='sfm_captcha_Captcha' id='sfm_captcha_Captcha'>
+                     <input type='hidden' name='sfm_captcha_Captcha_k' id='sfm_captcha_Captcha_k' value='%_sfm_form_page_session_id_%'>
+                  </div>
+                  <div class='element_label'>
+                     <small >Can't read the image? Please click <a href="javascript: void(0);" onclick="sfm_refresh_captcha('img_Captcha','sfm_captcha_Captcha','%_sfm_form_page_session_id_%') ;return true;">here</a> to refresh</small>
+                  </div>
+               </div>
+               <div id='upload_container' class='sfm_upload_container sfm_element_container' style='z-index:6'>
+                  <input type='file' id='upload' name='upload'>
+               </div>
+               <div id='Submit_container' class='loading_div sfm_element_container' style='z-index:8'>
+                  <input type='image' name='Submit' id='CoincoEmploymentForm_Submit_img' src='images/CoincoEmploymentForm-Submit-0.png' alt='submit' style='width:100px;height:50px;border:none'>
+               </div>
+            </div>
+         </div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   sfm_show_loading_on_formsubmit('CoincoEmploymentForm','CoincoEmploymentForm_Submit_img');
+});
+$("form#CoincoEmploymentForm #upload_container").sfmFileUpload({ name:"upload",url:"%sfm_self_script%",docicon:"images/1325057384_document.png",button_label:"Resume Upload",max_num_files:2,error_txt_max_num:"You can upload only 2 files for this field",max_file_size:2048,error_txt_max_size:"The file size should be less than 2 MB",valid_extensions:"jpg; gif; png; pdf",error_txt_extension:"Allowed files types are: jpg; gif; png; pdf" });
+      </script>
+      <script type='text/javascript'>
+var CoincoEmploymentFormValidator = new Validator("CoincoEmploymentForm");
+CoincoEmploymentFormValidator.addValidation("Name",{required:true,message:"Please fill in Name"} );
+CoincoEmploymentFormValidator.addValidation("Email",{email:true,message:"The input for  should be a valid email value"} );
+CoincoEmploymentFormValidator.addValidation("Email",{required:true,message:"Please fill in Email"} );
+CoincoEmploymentFormValidator.addValidation("sfm_captcha_Captcha",{required:true,message:"Please input the code displayed in the image"} );
+CoincoEmploymentFormValidator.addValidation("sfm_captcha_Captcha",{remote:"?sfm_validate_captcha=y&sfm_captcha_Captcha_k=%_sfm_form_page_session_id_%"} );
+CoincoEmploymentFormValidator.addValidation("upload",{max_numfiles:"2",message:"You can upload only 2 files for this field"} );
+CoincoEmploymentFormValidator.addValidation("upload",{file_extn:"jpg; gif; png; pdf",message:"Allowed files types are: jpg; gif; png; pdf"} );
+      </script>
+   </body>
+</html>
